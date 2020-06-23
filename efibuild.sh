@@ -300,7 +300,7 @@ if [ ! -f UDK/UDK.ready ]; then
   fi
 fi
 
-updaterepo "https://github.com/acidanthera/audk" UDK master || exit 1
+updaterepo "https://gitee.com/yeboning/audk" UDK master || exit 1
 cd UDK || exit 1
 HASH=$(git rev-parse origin/master)
 
